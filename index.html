@@ -10,22 +10,22 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
         <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
         <style>
-        
+
             /* CSS */
-            
+
         </style>
-        
-        <title>Title</title>
+
+        <title>Jimmy's SEP10 Project</title>
     </head>
     <body>
-        
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
         <script>
         </script>
-        
-        <div class="container=flex h">
-            <div class="card bg-white text-white text-center">
+
+        <div >
+            <div class="card bg-white text-light text-center" id="home">
                 <img src="https://www.drink-milk.com/wp-content/uploads/2020/03/about-dairy-farming-page-1340x540-1.jpg" class="card-img" alt="...">
                 <div class="card-img-overlay">
                     <h1 class="card-title my-3">Dairy Farming</h1>
@@ -33,28 +33,28 @@
                 </div>
             </div>
         </div>
-        
+
         <nav class="navbar sticky-top navbar-light bg-light mb-5">
             <div class="container-fluid justify-content-around">
                 <column>
-                    <a class="nav-link active text-dark font-weight-bold" aria-current="page" href="#hipo">Context</a>
+                    <a class="nav-link active text-dark font-weight-bold" aria-current="page" href="#home">Home</a>
                 </column>
                 <column>
-                    <a class="nav-link active text-dark font-weight-bold" href="#">Part A</a>
+                    <a class="nav-link active text-dark font-weight-bold" href="#context">Context</a>
                 </column>
                 <column>
-                    <a class="nav-link active text-dark font-weight-bold" href="#">Part B</a>
+                    <a class="nav-link active text-dark font-weight-bold" href="#tools">Tools</a>
                 </column>
                 <column>
-                    <a class="nav-link active text-dark font-weight-bold" href="#">How to use</a>
+                    <a class="nav-link active text-dark font-weight-bold" href="#future">Future</a>
                 </column>
             </div>
         </nav>
-        
+
             <div class="container-fluid p-15">
-                <div class="row justify-content-around">       
+                <div class="row justify-content-around">
                     <div class="col-sm-8">
-                        <div class="card mb-3" id="hipo">
+                        <div class="card mb-3" id="context">
                             <div class="row g-0">
                                 <div class="col-xl-4">
                                     <div class="container-fluid h-100">
@@ -70,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-8" id="tools">
                         <div class="card mb-3">
                             <div class="row g-0">
                                 <div class="col-xl-4">
@@ -95,7 +95,7 @@
                                         <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/guthrie-ky-cow-with-sunglasses-enzwell-designs.jpg" class="img-fluid rounded-start h-100 w-100" alt="...">
                                     </div>
                                 </div>
-                                <div class="col-xl-8">
+                                <div class="col-xl-8" id="future">
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Future Innovations</h5>
                                         <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I could create stuff like automatic cow caretakers so there is no need for any more manual caretaking of cows. It could serve as a very useful invention because there may be lots of cows who are being taken care of and if there is any problem like a disease spreading within a hoard, that would be a problem for the stability of the farm and for the animals that are in the farm. Even if this invention is impossible, I would at least like to automate most things like the feeders or the milkers. They would be useful as like how household pets and animals can be fed with automatic feeders at home, cows can too but at an industrial size.</p>
@@ -106,21 +106,28 @@
                     </div>
                 </div>
             </div>
-                
-                
-                
+
+z
             <div id="myEmbeddedScene">
                 <a-scene embedded>
+                    <iframe allowfullscreen="yes" allowvr="yes"></iframe>
+                    <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+                    <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+                    <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+                    <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+                    <a-sky color="#ECECEC"></a-sky>
                 </a-scene>
-                </div>
-            
+            </div>
+
+        
 
 
 
-        
-        
-        
-        
-        
+
+
+
+
+
+
     </body>
 </html>
