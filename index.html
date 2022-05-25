@@ -25,7 +25,7 @@
         <script>
         </script>
 
-        <div >
+        <div>
             <div class="card bg-white text-light text-center" id="home">
                 <img src="https://www.drink-milk.com/wp-content/uploads/2020/03/about-dairy-farming-page-1340x540-1.jpg" class="card-img" alt="...">
                 <div class="card-img-overlay">
@@ -106,22 +106,20 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-
-            <div id="myEmbeddedScene">
-                <a-scene embedded>
-                    <iframe allowfullscreen="yes" allowvr="yes" width="800" height="600"></iframe>
-                    <a-box src="https://m.media-amazon.com/images/I/61LJTa0qEiL._SL1500_.jpg" position="0 2 -5" rotation="0 0 0" scale="2 2 2"></a-box>
-                    <a-sky color="#222"></a-sky>
-                    <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-                    <a-sky color="#ECECEC"></a-sky>
-                    
-                    <a-assets>
-                        <img id="sky" src="cow-image.jpg">
-                    </a-assets>
-                <a-sky src="#sky"></a-sky>
-                </a-scene>
+                <div id="myEmbeddedScene" class="img-fluid">
+                    <a-scene embedded>
+                        <iframe allowfullscreen="yes" allowvr="yes" height="600"></iframe>
+                        <a-box src="https://m.media-amazon.com/images/I/61LJTa0qEiL._SL1500_.jpg" position="0 2 -5" rotation="0 0 0" scale="2 2 2"></a-box>
+                        <a-sky color="#222"></a-sky>
+                        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+                        <a-sky color="#ECECEC"></a-sky>
+                        
+                        <a-assets>
+                            <img id="sky" src="cow-image.jpg">
+                        </a-assets>
+                        <a-sky src="#sky"></a-sky>
+                    </a-scene>
+                </div>
             </div>
 
         

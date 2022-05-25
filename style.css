@@ -2,13 +2,7 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+
 navbar{
   color: black;
-}
-
-#yellow{
-  color: black;
-  border: 3px solid black;
-  background-color: white;
-  border-radius: 25px
 }
